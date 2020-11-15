@@ -11,11 +11,17 @@ struct MarvelCharacterFormView: View {
   @EnvironmentObject var store: MarvelCharacterStore
   @Environment(\.presentationMode) var presentationMode
   @ObservedObject var form: MarvelCharacterForm
+  let imageOptions = ImageOptions.allCases
 
   var body: some View {
     NavigationView {
       Form {
         TextField("Name", text: $form.name)
+        Picker(selection: $form.imageName, label: Text("Pick Image")) {
+          ForEach(imageOptions, id: \.self) { option in
+            Text(option.imageName)
+          }
+        }
         Section(header: Text("Description 📝")) {
           TextField("", text: $form.metaDescription)
         }
@@ -23,8 +29,8 @@ struct MarvelCharacterFormView: View {
       .navigationBarTitle("Add Super Hero", displayMode: .inline)
       .navigationBarItems(
         trailing: Button(
-          "Add",
-          action: saveMarvelCharacter))
+          form.isUpdating ? "Update": "Save",
+          action: form.isUpdating ? updateMarvelCharacter: saveMarvelCharacter))
     }
   }
 }

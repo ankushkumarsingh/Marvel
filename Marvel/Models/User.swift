@@ -8,6 +8,8 @@
 import Foundation
 import RealmSwift
 
+@objcMembers
 class User: Object {
   dynamic var _id = ObjectId.generate()
+  dynamic var name = ""
 }

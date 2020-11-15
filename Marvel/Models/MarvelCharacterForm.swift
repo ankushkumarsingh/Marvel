@@ -8,12 +8,12 @@
 import Foundation
 class MarvelCharacterForm: ObservableObject {
   @Published var name = ""
-  @Published var imageName = ""
+  @Published var imageName = ImageOptions.ironMan.rawValue
   @Published var metaDescription = ""
 
   var marvelCharacterID: Int?
 
-  var updating: Bool {
+  var isUpdating: Bool {
     marvelCharacterID != nil
   }
 

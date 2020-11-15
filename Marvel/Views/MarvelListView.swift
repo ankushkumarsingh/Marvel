@@ -21,15 +21,39 @@ struct MarvelListView: View {
           Text("Add some super heros to the list")
             .foregroundColor(.gray)
         }
-        ForEach(characters) { character in
+        ForEach(characters, id: \.self) { character in
           MarvelCharacterRow(character: character)
         }
+        addCharacterButton
       }
     }
     .listStyle(GroupedListStyle())
     .navigationBarTitle("Marvel Universe")
   }
 
+  var addCharacterButton: some View {
+    Button(action: openNewCharacterForm) {
+      HStack {
+        Image(systemName: "plus.circle.fill")
+        Text("Add Character")
+          .bold()
+      }
+    }
+    .foregroundColor(.green)
+    .sheet(isPresented: $marvelCharFormIsPresented) {
+      MarvelCharacterFormView(form: MarvelCharacterForm())
+        .environmentObject(self.store)
+    }
+  }
+
+}
+
+
+// MARK: - Actions
+extension MarvelListView {
+  func openNewCharacterForm() {
+    marvelCharFormIsPresented.toggle()
+  }
 }
 
 #if DEBUG

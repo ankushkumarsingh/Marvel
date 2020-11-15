@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MarvelCharacter: Identifiable {
+struct MarvelCharacter: Hashable, Identifiable {
   let id: Int
   let name: String
   let imageName: String
