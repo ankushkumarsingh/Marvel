@@ -16,7 +16,7 @@ struct MarvelListView: View {
 
   var body: some View {
     List {
-      Section(header: Text("Ingredients")) {
+      Section(header: Text("Characters")) {
         if characters.isEmpty {
           Text("Add some super heros to the list")
             .foregroundColor(.gray)
