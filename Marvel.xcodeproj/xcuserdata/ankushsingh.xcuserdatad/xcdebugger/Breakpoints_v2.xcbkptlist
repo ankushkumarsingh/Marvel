@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D0EB1DA3-ED1D-4B1A-BADE-7E88F8B836C9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47CB8415-09E0-499F-AB84-E8BB788DB1D2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4CE41B9-1E38-43AC-9E5E-9B261C96453D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D465ACB3-2AED-4426-BC72-C9259AFA9C40"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/Views/MarvelListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D465ACB3-2AED-4426-BC72-C9259AFA9C40 - a511760679917898"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.Text&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;Marvel.MarvelCharacter&gt;, Swift.Int, Marvel.MarvelCharacterRow&gt;)&gt;, SwiftUI.EmptyView&gt; in Marvel.MarvelListView.body.getter : some"
+                  moduleName = "Marvel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankushsingh/Documents/GitHub/Marvel/Marvel/Views/MarvelListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "287">
+               </Location>
+               <Location
+                  uuid = "D465ACB3-2AED-4426-BC72-C9259AFA9C40 - cb68e40eb95f34be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.Text&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;Marvel.MarvelCharacter&gt;, Swift.Int, Marvel.MarvelCharacterRow&gt;)&gt; in closure #1 () -&gt; SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.Text&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;Marvel.MarvelCharacter&gt;, Swift.Int, Marvel.MarvelCharacterRow&gt;)&gt;, SwiftUI.EmptyView&gt; in Marvel.MarvelListView.body.getter : some"
+                  moduleName = "Marvel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankushsingh/Documents/GitHub/Marvel/Marvel/Views/MarvelListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0C0740A-3BCD-465C-912E-5EAD21B1214B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/ViewModels/MarvelCharacterStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "characters"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C0C0740A-3BCD-465C-912E-5EAD21B1214B - 97474cdb8b88e979"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Marvel.MarvelCharacterStore.characters.getter : Swift.Array&lt;Marvel.MarvelCharacter&gt;"
+                  moduleName = "Marvel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankushsingh/Documents/GitHub/Marvel/Marvel/ViewModels/MarvelCharacterStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "C0C0740A-3BCD-465C-912E-5EAD21B1214B - d1df300ebe595934"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 (Marvel.MarvelCharacterDB) -&gt; Marvel.MarvelCharacter in Marvel.MarvelCharacterStore.characters.getter : Swift.Array&lt;Marvel.MarvelCharacter&gt;"
+                  moduleName = "Marvel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankushsingh/Documents/GitHub/Marvel/Marvel/ViewModels/MarvelCharacterStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "45">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BFB77E64-2271-448D-AC01-24C575EBCD24"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2571582-4378-4666-B52D-CAA53A72E745"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/Models/RealmMigrator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "setDefaultConfiguration()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D59F2CC-E5D6-4CD4-95C3-F1CFE6FB5314"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/Models/RealmMigrator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "migrationBlock(migration:oldSchemaVersion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
