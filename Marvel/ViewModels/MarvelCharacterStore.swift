@@ -43,7 +43,7 @@ extension MarvelCharacterStore {
     }
   }
 
-  func toggleBought(character: MarvelCharacter) {
+  func toggle(character: MarvelCharacter) {
     objectWillChange.send()
     do {
       let realm = try Realm()
