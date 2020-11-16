@@ -19,10 +19,19 @@ struct MarvelCharacterRow: View {
           .padding()
         HStack {
           Image(character.imageName).padding()
-          Spacer()
           Text(character.metaDescription)
             .font(.subheadline)
             .padding()
+          Spacer()
+          Circle()
+            .fill(Color(.purple))
+            .frame(width: 12, height: 12)
+          Button(action: deleteCharacter) {
+            Image(systemName: "trash.circle.fill")
+              .resizable()
+              .frame(width: 24, height: 24)
+              .foregroundColor(.red)
+          }
         }
       }
     }
