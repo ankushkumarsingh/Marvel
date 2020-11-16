@@ -17,9 +17,9 @@ struct MarvelCharacterFormView: View {
     NavigationView {
       Form {
         TextField("Name", text: $form.name)
-        Picker(selection: $form.imageName, label: Text("Pick Image")) {
+        Picker(selection: $form.image, label: Text("Pick Image")) {
           ForEach(imageOptions, id: \.self) { option in
-            Text(option.imageName)
+            Text(option.name)
           }
         }
         Section(header: Text("Description 📝")) {
@@ -28,6 +28,7 @@ struct MarvelCharacterFormView: View {
       }
       .navigationBarTitle("Add Super Hero", displayMode: .inline)
       .navigationBarItems(
+        leading: Button("Cancel", action: dismiss),
         trailing: Button(
           form.isUpdating ? "Update": "Save",
           action: form.isUpdating ? updateMarvelCharacter: saveMarvelCharacter))
@@ -44,7 +45,7 @@ extension MarvelCharacterFormView {
   func saveMarvelCharacter() {
     store.create(
       name: form.name,
-      imageName: form.imageName,
+      imageName: form.image.imageName,
       metaDescription: form.metaDescription)
     dismiss()
   }
@@ -54,7 +55,7 @@ extension MarvelCharacterFormView {
       store.update(
         marvelCharacterID: marvelCharacterID,
         name: form.name,
-        imageName: form.imageName,
+        imageName: form.image.imageName,
         metaDescription: form.metaDescription)
       dismiss()
     }

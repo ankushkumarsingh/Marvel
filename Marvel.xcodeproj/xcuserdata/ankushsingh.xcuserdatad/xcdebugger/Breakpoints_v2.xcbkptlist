@@ -7,70 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D465ACB3-2AED-4426-BC72-C9259AFA9C40"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Marvel/Views/MarvelListView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "D465ACB3-2AED-4426-BC72-C9259AFA9C40 - 3075c301c287298a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.Text&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;Marvel.MarvelCharacter&gt;, Marvel.MarvelCharacter, Marvel.MarvelCharacterRow&gt;, &lt;&lt;opaque return type of Marvel.MarvelListView.addCharacterButton : some&gt;&gt;.0)&gt;, SwiftUI.EmptyView&gt; in Marvel.MarvelListView.body.getter : some"
-                  moduleName = "Marvel"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ankushsingh/Documents/GitHub/Marvel/Marvel/Views/MarvelListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "324">
-               </Location>
-               <Location
-                  uuid = "D465ACB3-2AED-4426-BC72-C9259AFA9C40 - 4140d3a35263b5c2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.Text&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;Marvel.MarvelCharacter&gt;, Marvel.MarvelCharacter, Marvel.MarvelCharacterRow&gt;, &lt;&lt;opaque return type of Marvel.MarvelListView.addCharacterButton : some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.Text&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;Marvel.MarvelCharacter&gt;, Marvel.MarvelCharacter, Marvel.MarvelCharacterRow&gt;, &lt;&lt;opaque return type of Marvel.MarvelListView.addCharacterButton : some&gt;&gt;.0)&gt;, SwiftUI.EmptyView&gt; in Marvel.MarvelListView.body.getter : some"
-                  moduleName = "Marvel"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ankushsingh/Documents/GitHub/Marvel/Marvel/Views/MarvelListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "0">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9F612736-91D5-40E0-9E0A-E945D2EB4003"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Marvel/Views/MarvelCharacterRow.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "29AAC2E3-ED10-4690-B69F-1212C79CD690"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -78,9 +14,41 @@
             filePath = "Marvel/Views/MarvelCharacterFormView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "saveMarvelCharacter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0F02FCC-8AE1-46AA-876B-EEEE274CDBF5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/Views/MarvelCharacterFormView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "saveMarvelCharacter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF689575-2706-4D5F-9B5C-25923871BF56"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/Models/MarvelCharacterForm.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "init(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

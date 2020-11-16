@@ -8,7 +8,7 @@
 import Foundation
 class MarvelCharacterForm: ObservableObject {
   @Published var name = ""
-  @Published var imageName = ImageOptions.ironMan.rawValue
+  @Published var image = ImageOptions.ironMan
   @Published var metaDescription = ""
 
   var marvelCharacterID: Int?
@@ -21,7 +21,7 @@ class MarvelCharacterForm: ObservableObject {
 
   init(_ marvelCharacter: MarvelCharacter) {
     name = marvelCharacter.name
-    imageName = marvelCharacter.imageName
+    image = ImageOptions(rawValue: marvelCharacter.imageName) ?? .ironMan
     metaDescription = marvelCharacter.metaDescription
     marvelCharacterID = marvelCharacter.id
   }
