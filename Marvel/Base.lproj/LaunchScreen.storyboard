@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="skm-4Q-SEq">
-                                <rect key="frame" x="112.66666666666669" y="331" width="150" height="150"/>
+                                <rect key="frame" x="60.666666666666657" y="279" width="253.99999999999997" height="254"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="skm-4Q-SEq" secondAttribute="height" multiplier="1:1" id="F6J-6J-J5s"/>
                                 </constraints>
@@ -49,6 +49,6 @@
     </scenes>
     <resources>
         <image name="Universe" width="643" height="428.5"/>
-        <image name="logo" width="150" height="84"/>
+        <image name="logo" width="254" height="237.5"/>
     </resources>
 </document>
